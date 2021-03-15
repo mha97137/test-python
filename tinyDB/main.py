@@ -21,7 +21,7 @@ while band:
         pass
     elif(op==3):
         name = input("Enter name ")
-        man.searhName(Nombre)
+        man.searchName(name)
     elif(op==4):
         band=False
     
