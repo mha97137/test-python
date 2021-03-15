@@ -26,13 +26,5 @@ while band:
         band=False
     
     else:
-        print ("Invalid Option")
-        
-        
-        
-        
-        
-        
-        
-        
+        print ("Invalid Option")  
     
