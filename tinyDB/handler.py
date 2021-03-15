@@ -22,8 +22,8 @@ class test:
             print ("==========================")
     
     def searchName(self, name):
-        db = TiniDB("players.json")
-        lista = db.search(were("name")==name)
+        db = TinyDB("players.json")
+        lista = db.search(where("name")==name)
         for elem in lista:
             print ("==========================")
             print ("nombre  :", elem["name"])
